@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>New Alumni Form</title>
+<link rel="stylesheet" type="text/css" href="include/alumnistyle.css" />
+<link href="include/sty.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="blue_bk">
+<div class="logo">
+    <div class="clg_name">PSG College of Technology <br />Department of Computer Applications<br />
+Alumni Website</div>
+  </div>
+</div>
+
+ <div class="menu">
+ <div class="navigation">
+ <ul >
+    <li><a href="indexpage.html">Home</a></li>
+    <li><a href=""></a></li>
+    <li><a href="new_alumni.php">Registration</a></li>
+    <li><a href=""></a></li>
+    <li><a href="loginpage.html">Discussions</a></li>
+    <li><a href=""></a></li>
+    <li><a href="alumni_search.php">Alumni Search</a></li>
+    <li><a href=""></a></li>
+    <li><a href="#">News & Events</a>
+    <ul><li><a href="job.php">Job Offers</a></li>
+    </ul>
+    <li><a href=""></a></li>
+    <li><a href="photo_gal.html">Gallary</a></li>
+    <li><a href=""></a></li>
+    <li><a href="contact.html">Contact us</a></li>
+		 
+    </ul>
+ </div></div>
+ <div class="bk_newalumni">
+<center><body>
+<form action="otheruser.php" method="post" onsubmit="return validate();">
+<div class="border_alumni">
+<br />
+<div class="font_alum">
+    <center><h3><font color="#CC0000" style="font-family:'Times New Roman', Times, serif" size="+2" >STUDENT / FACULTY REGISTRATION</font></h3></center><br />
+
+<table  width="400" border="0" cellspacing="1" cellpadding="5">
+ 
+   <tr>
+    <td>Name    	  :</td>
+    <td><input type="text" name="rname" size="20" id="TAlumniname" required="required" /></td>
+  </tr>
+  <tr>
+    <td>Roll No   	  :</td>
+    <td><input type="text" name="rrno" size="20" id="TAlumniname" required="required" /></td>
+  </tr>
+   <tr>
+  <td>Designation     :</td>
+  <td><input type="radio" name="designation" value="student" required="required" />Student
+  <input type="radio" name="designation" size="20" value="faculty" />Faculty</td>
+  </tr>
+   
+   <tr>
+  <td>Gender         :</td>
+  <td><input type="radio" name="gender" value="male" required="required" />Male
+  <input type="radio" name="gender" size="20" value="female" />Female</td>
+  </tr>
+   <tr>
+   <td>E-mail Id :<br />(It will be the uesr Id)</td>
+   <td><input type="text" name="emid" size="20" required="required" /></td>
+  </tr>
+   </tr>
+  
+  <td>Address :</td>
+  <td><textarea name="address" cols="18" rows="3">
+    </textarea></td>
+  </tr>
+ <tr>
+    <td></td>
+    <td><input type="submit" name="submit" value="Submit" onclick="return validate();"  />
+    
+    </td>
+  </tr>
+ 
+</table><br />
+
+</div>
+</div>
+</div>
+</center>
+</form>
+</body>
+
+</html>

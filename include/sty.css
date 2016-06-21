@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navigation{
+height:40px;
+font:normal 18px/40px "Arial", Helvetica, sans-serif;
+color:#CC0000;
+
+text-shadow: 0px 1px #444;
+background:url(../images/navigation_bg.png) 0 0 no-repeat;
+width:950px;
+clear:both;
+margin:0 auto;
+}	
+
+.navigation ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+
+.navigation ul li{
+padding:0;
+float:left;
+font:normal 18px/40px "Arial", Helvetica, sans-serif;
+color:#FF0000;
+text-shadow: 0px 1px #444;
+margin:0px 12px;
+position:relative;
+}
+
+.navigation ul li a{
+font:normal 18px/40px "Arial", Helvetica, sans-serif;
+color:#FFFFFF;
+text-decoration:blink;
+text-shadow: 0px 1px #444;
+}
+
+.navigation ul li a:hover{
+background:url(../images/hover_left.png) left 10px no-repeat;
+color:#FF0000;
+text-decoration:blink;
+}	
+
+.navigation ul li ul{
+display:none;
+position:absolute;
+background-color:#D8DAE0;
+padding:10px; 
+border color:#006
+}
+
+.navigation ul li ul li{
+float:none;
+padding:0;
+margin:0;
+width:150px;
+font:normal 18px/24px "Arial", Helvetica, sans-serif;
+color:#FFFFFF;
+text-decoration:blink;
+z-index:100;
+}
+
+.navigation ul li ul li a{
+font:normal 18px/24px "Arial", Helvetica, sans-serif;
+color:#FF0000;
+text-decoration:blink;
+}
+
+.navigation ul li ul li a:hover{
+color:#F06;
+}	
+
+ 
+
+.navigation ul li:hover > ul{
+display:block;
+}
+

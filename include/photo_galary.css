@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hod_img1{
+	width:250px;
+	height:229px;
+	float:left;
+	background:url(../images/HoDsDesk.jpg);
+	margin:32px 50px 5px 45px;
+}
+.img1{
+	width:279px;
+	height:229px;
+	float:left;
+	background:url(../images/HoDsDesk.jpg);
+	margin:32px 10px 5px 0px;
+}
+.img2{
+	width:279px;
+	height:183px;
+	float:left;
+	background:url(../images/clg2.jpg);
+	margin:55px 35px 5px 0px;
+	
+}
+.img3{
+	width:259px;
+	height:197px;
+	float:left;
+	background:url(../images/clg4.jpg);
+	margin:45px 25px 5px 0px;
+	
+}
+.img4{
+	width:284px;
+	height:177px;
+	float:left;
+	background:url(../images/clg5.jpg);
+	margin:55px 25px 5px 0px;
+	
+}
+.img5{
+	width:282px;
+	height:179px;
+	float:left;
+	background:url(../images/c1.jpg);
+	margin:65px 25px 5px 25px;
+	
+}
+.img6{
+	width:278px;
+	height:181px;
+	float:left;
+	background:url(../images/clg9.jpg);
+	margin:62px 25px 0px 35px;
+	
+}
+.img7{
+width:259px;
+height:194px;
+float:left;
+background:url(../images/lab.jpg);
+margin:60px 0 0 25px;
+}
+
+.img8{
+width:207px;
+height:155px;
+float:left;
+background:url(../images/clg7.jpg);
+margin:64px 0 0 35px;
+
+}
+.image1
+{
+width:1350px;
+height:240px;
+float:left;
+margin:0 0 0 0;
+
+}
+.image2
+{
+width:1350px;
+height:240px;
+float:left;
+margin:0 0 0 0;
+}
+
