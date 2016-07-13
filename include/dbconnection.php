@@ -1,7 +1,7 @@
 <?php
     session_start();
   
-     $server="localhost";
+     $server="localhost:3306";
 	 $username="root";
 	 $password="";
 	 $db="alumni_portal";
