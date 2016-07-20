@@ -3,7 +3,7 @@
   
      $server="localhost:3306";
 	 $username="root";
-	 $password="";
+	 $password="root";
 	 $db="alumni_portal";
 	 
 	 mysql_connect($server,$username,$password);
