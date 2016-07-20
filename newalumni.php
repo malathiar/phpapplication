@@ -1,7 +1,7 @@
 
 <?php
 
-$conn=mysqli_connect('localhost','root','root','alumni_portal');
+$conn=mysqli_connect('localhost:3306','root','root','alumni_portal');
 	$alumniname=$_POST['alumniname'];
 	$rollno=$_POST['rollno'];
 	$batch=$_POST['batch'];
